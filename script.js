@@ -1,5 +1,4 @@
 function validatePIN (pin) {
-  debugger;
   if (pin.length !== 4 || pin.length !== 6) {
     return false;
   }
